@@ -1,0 +1,23 @@
+.login__text {
+  min-width: 354px;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16, 94px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+  color: #cccccc;
+}
+
+.login__text:last-of-type {
+  margin-bottom: 218px;
+}
+
+@media screen and (max-width: 380px) {
+  .login__text {
+    min-width: 280px;
+  }
+}

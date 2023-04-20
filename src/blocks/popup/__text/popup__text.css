@@ -1,0 +1,27 @@
+.popup__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 8px;
+  margin-bottom: 30px;
+}
+
+.popup__text:last-of-type {
+  margin-bottom: 48px;
+}
+
+.popup__text::placeholder {
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .popup__text {
+    line-height: 16.94px;
+  }
+
+  .popup__text:last-of-type {
+    margin-bottom: 45px;
+  }
+}

@@ -1,0 +1,19 @@
+.header__link-title {
+  color: white;
+  margin-right: 0;
+  margin-bottom: 38px;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.header__link-title:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 601px) {
+  .header__link-title {
+    margin-bottom: 0;
+  }
+}

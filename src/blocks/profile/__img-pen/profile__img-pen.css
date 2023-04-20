@@ -1,0 +1,28 @@
+.profile__img-pen {
+  transition: 1s;
+  align-items: center;
+  cursor: pointer;
+  background-color: black;
+  min-width: 24px;
+  padding: 0;
+  display: flex;
+  min-height: 24px;
+  background-image: url(../../../images/button_pen.svg);
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  background-position: center;
+  margin-left: 8px;
+}
+
+.profile__img-pen:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 380px) {
+  .profile__img-pen {
+    min-width: 18px;
+    min-height: 18px;
+    background-size: 7.5px;
+    margin-left: 0;
+  }
+}
